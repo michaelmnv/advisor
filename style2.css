@@ -1,0 +1,53 @@
+.container {
+  max-width: 6px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 10%;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  color: gray;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.buttons button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 180px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.like {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.dislike {
+  background-color: #F44336;
+  color: white;
+}

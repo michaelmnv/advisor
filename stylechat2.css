@@ -1,0 +1,133 @@
+/* Style the header */
+.header {
+  background-color: #3b5998;
+  color: white;
+  padding: 15px;
+    
+}
+header {
+  background-color: #3b5998;
+  border: 1px solid #cccccc;
+  /* Autres propriétés de style */
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding: 15px;
+    color: white;
+}
+
+
+header:hover {
+  background-color: #e6e6e6;
+  border-color: #999999;
+}
+    
+/* Style the conversation container */
+.conversation-container {
+  max-height: calc(100vh - 180px); /* 100vh is the full height of the viewport, 180px accounts for the header and input bar */
+  overflow-y: auto; /* Enable scrolling if the conversation is too long */
+}
+
+/* Style the message bubbles */
+.message-bubble {
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style the message sender's name */
+.sender {
+  font-weight: bold;
+    
+}
+
+.highlight {
+  background-color: dodgerblue;
+}
+
+/* Style the input bar */
+.input-bar {
+  background-color: #fafafa;
+  border-top: 1px solid #dbdbdb;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the input field */
+.input-field {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: calc(100% - 50px); /* 100% minus the size of the send button */
+}
+
+/* Style the send button */
+.send-button {
+  background-color: #4267b2;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  height: 100%;
+  padding: 10px;
+  width: 50px;
+}
+button {
+  /* Mise en forme de base des boutons */
+  border: none;
+  background-color: #3498db;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  /* Effet de surbrillance lors du passage de la souris */
+  background-color: #2980b9;
+}
+
+button:active {
+  /* Effet de pression lors du clic */
+  background-color: #2980b9;
+  transform: translateY(2px);
+}
+
+button:focus {
+  /* Mise en évidence de l'élément lors de la navigation au clavier */
+  outline: none;
+}
+
+button.add-friend {
+  /* Mise en forme des boutons d'ajout d'ami */
+  background-color: #7ecc99;
+}
+
+button.add-friend:hover {
+  /* Effet de surbrillance pour les boutons d'ajout d'ami */
+  background-color: #333;
+}
+
+button.add-friend:active {
+  /* Effet de pression pour les boutons d'ajout d'ami */
+  background-color: #999;
+  transform: translateY(2px);
+}
+
+button.delete-friend {
+  /* Mise en forme des boutons de suppression d'ami */
+  background-color: #e94c3c;
+}
+
+button.delete-friend:hover {
+  /* Effet de surbrillance pour les boutons de suppression d'ami */
+  background-color: #c0392b;
+}
+
+button.delete-friend:active {
+  /* Effet de pression pour les boutons de suppression d'ami */
+  background-color: #c0392b;
+  transform: translateY(2px);
+}

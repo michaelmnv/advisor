@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bienvenue sur le site de Michael Minev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <header>
+            <!-- Formulaire de connexion -->
+<form method="post" action="login.php">
+  <input type="submit" class="login-button" value="cliquer ici pour Se connecter">
+</form>
+
+<!-- HTML form for user registration -->
+<form method="post" action="inscription.php">
+  <input type="submit" class="register-button" name="submit" value="cliquez ici pour s'inscrire">
+</form>
+    <h1>Bienvenue sur le site de Michael Minev</h1>
+    <nav>
+      <ul>
+
+<nav class="menu">
+  <ul>
+    <li><a href="#">Accueil</a></li>
+    <li class="dropdown">
+      <a href="#">Produits</a>
+      <div class="dropdown-content">
+        <a href="#">Catégorie 1</a>
+        <a href="#">Catégorie 2</a>
+        <a href="#">Catégorie 3</a>
+      </div>
+    </li>
+    <li><a href="#">À propos</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+      </ul>
+    </nav>
+      
+      
+  </header>
+
+
+
+  <main>
+    <section>
+      <h2>Bienvenue</h2>
+      <p>Nous avons une large sélection de produits de qualité à des prix raisonnables.</p>
+      <p>Pour commencer à magasiner, cliquez sur le lien "Produits" dans le menu de navigation ci-dessus.</p>
+        <p>Suite à de nombreuses demandes, il est maintenant nécéssaire de s'inscrire ou de se connecter pour avoir accès aux produits</p>
+    </section>
+  </main>
+  <footer>
+      
+      
+    <p>Copyright 2021 Mon site de commerce</p>
+  </footer>
+</body>
+    
+    
+</html>
+

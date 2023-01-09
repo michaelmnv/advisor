@@ -1,0 +1,258 @@
+body {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+    background-color:  #1f2029;
+}
+
+.login-button {
+  /* Styles pour le bouton de connexion */
+  background: #45414d;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  border: none; /* Ajoutez cette ligne pour enlever la bordure */
+    padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+
+    
+}
+
+.login-button:hover 
+
+{
+      color: #b5973c;
+  cursor: pointer;
+}
+.register-button:hover{
+    color: #b5973c;
+  cursor: pointer;
+    }
+    
+    
+    
+.register-button{
+  /* Styles pour le bouton de connexion */
+  background: #45414d;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  border: none; /* Ajoutez cette ligne pour enlever la bordure */
+    border-right: 1px solid #b5973c; /* Ajoutez cette ligne pour ajouter un trait jaune */
+
+      padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+}
+
+
+.page-container {
+  width: 100%;
+}
+.top-header {
+  background:  #1f2029;;
+ 
+}
+.container {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-header .container {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+.top-header .container div {
+  margin: 0 0 0 20px;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ccc;
+}
+.top-header .container div:first-child {
+  border-left: 0;
+}
+.mid-header .container {
+  display: flex;
+  justify-content: center;
+}
+.mid-header .container div {
+  width: 25%;
+  height: 110px;
+}
+.mid-header .container .freecons {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+.mid-header .container .freecons p {
+  background: #b5973c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.mid-header .container .firm {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.mid-header .container .phone {
+  display: flex;
+  align-items: center;
+}
+.mid-header .container .freecons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mid-header h3 {
+  font-family: "Lora",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  border-bottom: 1px solid;
+  margin: auto auto 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.mid-header h4 {
+  font-family: "Lora",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin: 0 0 auto 0;
+  padding: 7px 0 0 0;
+  text-align: center;
+}
+.bot-header {
+  margin-bottom: -45px;
+}
+.bot-header .container {
+  background: deepskyblue;
+  height: 90px;
+  border: 5px solid #45414d;
+  box-sizing: border-box;
+  padding: 0;
+}
+.bot-header .container .innernav {
+  background: #45414d;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #b5973c;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bot-header .container .innernav h5 {
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+  border-right: 1px solid #b5973c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Lora",Helvetica,Arial,sans-serif;
+}
+.bot-header .container .innernav h5:last-child {
+  padding: 0;
+  margin: 0;
+  border-right: 0;
+}
+.bot-header .container .innernav h5:hover {
+  color: #b5973c;
+  cursor: pointer;
+}
+.header  {
+  background: deepskyblue;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.teamimg {
+  background-image: url('visuel-les-barreaux-d-avocats-c-est-quoi-1024x512.jpg');
+  height: 425px;
+  background-repeat: no-repeat;
+  background-size:cover;
+    background-position: center;
+}
+.sections section {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sections section h2 {
+  font-family: "Lora",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.sections .section {
+  width: calc(33% - 20px);
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.sections .section .secserv {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0;
+}
+.sections .section .secimg {
+  width: 100%;
+}
+.sections .avocat {
+  width: calc(25% - 10px);
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.sections .avocat .avimg {
+  width: 100%;
+  border-bottom: 3px solid #b5973c;
+  margin-bottom: -3px;
+  border-radius: 5px 5px 0 0;
+}
+.sections .avocat .avname {
+  font-weight: bold;
+  font-family: "Lora",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+
+.secdesc{
+    color: white;
+}
+
+.secserv{
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+
+
